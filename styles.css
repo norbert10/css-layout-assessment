@@ -32,12 +32,17 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .photos {
@@ -48,4 +53,5 @@ nav a {
 
 .feature {
     width: 200px;
+    float: left;
 }
