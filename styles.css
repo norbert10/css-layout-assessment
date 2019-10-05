@@ -51,9 +51,29 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(2, 75%);
+    grid-column-start: -1;
+    grid-column-end: 3;
+    grid-gap: 1px;
+    height: 100%;
+    padding-left: 1em;
 }
 
 .feature {
     width: 200px;
     float: left;
+    padding-right: 1em;
+}
+article{
+    float: left;
+    width: 80%;
+}
+aside{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    padding-left: 1em;
 }
